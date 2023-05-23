@@ -6,6 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- add meta tags to set title -->
+    <meta name="title" content="PahVenture">
+
+    <!-- add language -->
+    <meta http-equiv="Content-Language" content="en-us">
+
     <!-- add meta tags to set title color -->
     <meta name="theme-color" content="#d3a940">
     <meta name="msapplication-navbutton-color" content="#d3a940">
@@ -35,7 +41,7 @@
 
 
     <title>Under Construction</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="resources/css/all.min.css" />
     <style>
         body {
             display: flex;
@@ -45,6 +51,7 @@
             background: #f3f3f3;
             font-family: 'Arial', sans-serif;
             margin: 0;
+            color: #012335;
         }
 
         .container {
@@ -69,7 +76,7 @@
             margin: 10px;
         }
 
-        
+
         /* Media queries for responsiveness */
         @media screen and (max-width: 768px) {
             .container img {
@@ -83,6 +90,34 @@
                 width: 150px;
             }
         }
+
+        /* add prompt web font from resources\Prompt */
+        @font-face {
+            font-family: 'Prompt';
+            src: url('resources/webfonts/Prompt-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* add prompt web font from resources\Prompt */
+        @font-face {
+            font-family: 'Prompt';
+            src: url('resources/webfonts/Prompt-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        /* use prompt as font */
+        * {
+            font-family: 'Prompt', sans-serif;
+        }
+
+        .description{
+            text-align: justify;
+            margin: 20px;
+            max-width: 1000px;
+        }
+
     </style>
 </head>
 
@@ -100,6 +135,40 @@
                     class="fab fa-whatsapp"></i></a>
             <a href="mailto:contacto@pahventure.com"><i class="fas fa-envelope"></i></a>
             <a href="tel:573024638964"><i class="fas fa-phone"></i></a>
+        </div>
+        <hr />
+        <div class="description">
+            <p>
+                <b>PahVenture</b> is a vibrant, up-and-coming company that takes pride in offering a broad spectrum of services
+                tailored to meet the needs of modern businesses. Our core competencies span across multiple domains,
+                including software development, web development, and mobile development.
+            </p>
+            <p>
+                We embrace the digital transformation wave, empowering our clients through digital marketing initiatives
+                that elevate their online presence and connect them more effectively with their audience. Our seasoned
+                team is also adept in crafting compelling graphic designs that not only capture attention but also
+                resonate with the targeted market.
+            </p>
+            <p>
+                However, it's important to note that we are not just about providing solutions; we're about forging
+                partnerships. We view each project as a collaboration, working closely with our clients to understand
+                their specific needs and develop solutions that perfectly align with their business objectives.
+            </p>
+            <p>
+                As we constantly strive to enrich our offerings and better serve our clientele, PahVenture is currently
+                under construction. This doesn't signify stagnation, but rather our commitment to continuous growth and
+                improvement. While we fine-tune our services and implement innovative strategies, we remain fully
+                functional, dedicated to delivering the same high-quality services our clients have come to expect.
+            </p>
+            <p>
+                Our reconstruction symbolizes a metamorphosis – the transformation of PahVenture into an even more
+                robust, dynamic, and versatile entity. It stands as a testament to our dedication to being future-ready,
+                always adapting to remain at the cutting edge of industry advancements.
+            </p>
+            <p>
+                We appreciate your patience during this period of growth and look forward to revealing the improved
+                PahVenture to you soon.
+            </p>
         </div>
     </div>
 </body>
